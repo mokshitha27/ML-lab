@@ -1,0 +1,9 @@
+def range(numbers):
+    if len(numbers)<3:
+        return"error"
+    maximum=max(numbers)
+    minimum=min(numbers)
+    return maximum-minimum
+numbers=[5,3,8,1,0,4]
+result=range(numbers)
+print(" range=",result)
